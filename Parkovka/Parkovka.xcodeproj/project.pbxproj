@@ -1,0 +1,647 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		81007DD421F821A000EE5A9E /* HelperMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81007DD321F821A000EE5A9E /* HelperMethods.swift */; };
+		8101306C21FC839F000E254D /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8101306B21FC839F000E254D /* MapViewController.swift */; };
+		8106273F223894D00098BCED /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8106273E223894D00098BCED /* MenuViewController.swift */; };
+		8112E3F621F79E3E00EEC909 /* TextFieldClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8112E3F521F79E3E00EEC909 /* TextFieldClass.swift */; };
+		8112E3FA21F7ACA500EEC909 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8112E3F921F7ACA500EEC909 /* RegistrationViewController.swift */; };
+		811B4C9E21F739F7001B3644 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811B4C9D21F739F7001B3644 /* AppDelegate.swift */; };
+		811B4CA021F739F7001B3644 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811B4C9F21F739F7001B3644 /* CameraViewController.swift */; };
+		811B4CA321F739F7001B3644 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 811B4CA121F739F7001B3644 /* Main.storyboard */; };
+		811B4CA521F739F9001B3644 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 811B4CA421F739F9001B3644 /* Assets.xcassets */; };
+		811B4CA821F739F9001B3644 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 811B4CA621F739F9001B3644 /* LaunchScreen.storyboard */; };
+		811B4CB321F739F9001B3644 /* ParkovkaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811B4CB221F739F9001B3644 /* ParkovkaTests.swift */; };
+		811B4CBE21F739F9001B3644 /* ParkovkaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811B4CBD21F739F9001B3644 /* ParkovkaUITests.swift */; };
+		811B4CCC21F73E64001B3644 /* LocationAndDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811B4CCB21F73E64001B3644 /* LocationAndDate.swift */; };
+		811B4CD021F75436001B3644 /* FinalProtocolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811B4CCF21F75436001B3644 /* FinalProtocolViewController.swift */; };
+		811B4CD221F754F7001B3644 /* ViolationTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811B4CD121F754F7001B3644 /* ViolationTypeViewController.swift */; };
+		811B4CD821F76F11001B3644 /* MyCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811B4CD721F76F11001B3644 /* MyCustomCell.swift */; };
+		811B4CDA21F773E3001B3644 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811B4CD921F773E3001B3644 /* InfoViewController.swift */; };
+		8148C4742240124900333842 /* Slide.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8148C4732240124900333842 /* Slide.xib */; };
+		8148C47A2240143000333842 /* Slide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8148C4792240143000333842 /* Slide.swift */; };
+		8163F8EF223E86E5003ED1CE /* ReportClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8163F8EE223E86E5003ED1CE /* ReportClass.swift */; };
+		8163F8F1223EA10B003ED1CE /* TextFieldContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8163F8F0223EA10B003ED1CE /* TextFieldContainer.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		811B4CAF21F739F9001B3644 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 811B4C9221F739F7001B3644 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 811B4C9921F739F7001B3644;
+			remoteInfo = Parkovka;
+		};
+		811B4CBA21F739F9001B3644 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 811B4C9221F739F7001B3644 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 811B4C9921F739F7001B3644;
+			remoteInfo = Parkovka;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		81007DD321F821A000EE5A9E /* HelperMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperMethods.swift; sourceTree = "<group>"; };
+		8101306B21FC839F000E254D /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		8106273E223894D00098BCED /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		8112E3F521F79E3E00EEC909 /* TextFieldClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldClass.swift; sourceTree = "<group>"; };
+		8112E3F921F7ACA500EEC909 /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		811B4C9A21F739F7001B3644 /* Parkovka.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Parkovka.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		811B4C9D21F739F7001B3644 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		811B4C9F21F739F7001B3644 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		811B4CA221F739F7001B3644 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		811B4CA421F739F9001B3644 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		811B4CA721F739F9001B3644 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		811B4CA921F739F9001B3644 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		811B4CAE21F739F9001B3644 /* ParkovkaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParkovkaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		811B4CB221F739F9001B3644 /* ParkovkaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkovkaTests.swift; sourceTree = "<group>"; };
+		811B4CB421F739F9001B3644 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		811B4CB921F739F9001B3644 /* ParkovkaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParkovkaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		811B4CBD21F739F9001B3644 /* ParkovkaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkovkaUITests.swift; sourceTree = "<group>"; };
+		811B4CBF21F739F9001B3644 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		811B4CCB21F73E64001B3644 /* LocationAndDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationAndDate.swift; sourceTree = "<group>"; };
+		811B4CCF21F75436001B3644 /* FinalProtocolViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalProtocolViewController.swift; sourceTree = "<group>"; };
+		811B4CD121F754F7001B3644 /* ViolationTypeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViolationTypeViewController.swift; sourceTree = "<group>"; };
+		811B4CD721F76F11001B3644 /* MyCustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomCell.swift; sourceTree = "<group>"; };
+		811B4CD921F773E3001B3644 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		8148C4732240124900333842 /* Slide.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Slide.xib; sourceTree = "<group>"; };
+		8148C4792240143000333842 /* Slide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slide.swift; sourceTree = "<group>"; };
+		8163F8EE223E86E5003ED1CE /* ReportClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportClass.swift; sourceTree = "<group>"; };
+		8163F8F0223EA10B003ED1CE /* TextFieldContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldContainer.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		811B4C9721F739F7001B3644 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		811B4CAB21F739F9001B3644 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		811B4CB621F739F9001B3644 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		811B4C9121F739F7001B3644 = {
+			isa = PBXGroup;
+			children = (
+				811B4C9C21F739F7001B3644 /* Parkovka */,
+				811B4CB121F739F9001B3644 /* ParkovkaTests */,
+				811B4CBC21F739F9001B3644 /* ParkovkaUITests */,
+				811B4C9B21F739F7001B3644 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		811B4C9B21F739F7001B3644 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				811B4C9A21F739F7001B3644 /* Parkovka.app */,
+				811B4CAE21F739F9001B3644 /* ParkovkaTests.xctest */,
+				811B4CB921F739F9001B3644 /* ParkovkaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		811B4C9C21F739F7001B3644 /* Parkovka */ = {
+			isa = PBXGroup;
+			children = (
+				811B4C9D21F739F7001B3644 /* AppDelegate.swift */,
+				8106273E223894D00098BCED /* MenuViewController.swift */,
+				811B4C9F21F739F7001B3644 /* CameraViewController.swift */,
+				811B4CD921F773E3001B3644 /* InfoViewController.swift */,
+				811B4CD121F754F7001B3644 /* ViolationTypeViewController.swift */,
+				8101306B21FC839F000E254D /* MapViewController.swift */,
+				8148C4792240143000333842 /* Slide.swift */,
+				8163F8EE223E86E5003ED1CE /* ReportClass.swift */,
+				8112E3F921F7ACA500EEC909 /* RegistrationViewController.swift */,
+				811B4CCF21F75436001B3644 /* FinalProtocolViewController.swift */,
+				81007DD321F821A000EE5A9E /* HelperMethods.swift */,
+				8112E3F521F79E3E00EEC909 /* TextFieldClass.swift */,
+				811B4CD721F76F11001B3644 /* MyCustomCell.swift */,
+				8163F8F0223EA10B003ED1CE /* TextFieldContainer.swift */,
+				811B4CCB21F73E64001B3644 /* LocationAndDate.swift */,
+				811B4CA121F739F7001B3644 /* Main.storyboard */,
+				8148C4732240124900333842 /* Slide.xib */,
+				811B4CA421F739F9001B3644 /* Assets.xcassets */,
+				811B4CA621F739F9001B3644 /* LaunchScreen.storyboard */,
+				811B4CA921F739F9001B3644 /* Info.plist */,
+			);
+			path = Parkovka;
+			sourceTree = "<group>";
+		};
+		811B4CB121F739F9001B3644 /* ParkovkaTests */ = {
+			isa = PBXGroup;
+			children = (
+				811B4CB221F739F9001B3644 /* ParkovkaTests.swift */,
+				811B4CB421F739F9001B3644 /* Info.plist */,
+			);
+			path = ParkovkaTests;
+			sourceTree = "<group>";
+		};
+		811B4CBC21F739F9001B3644 /* ParkovkaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				811B4CBD21F739F9001B3644 /* ParkovkaUITests.swift */,
+				811B4CBF21F739F9001B3644 /* Info.plist */,
+			);
+			path = ParkovkaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		811B4C9921F739F7001B3644 /* Parkovka */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 811B4CC221F739F9001B3644 /* Build configuration list for PBXNativeTarget "Parkovka" */;
+			buildPhases = (
+				811B4C9621F739F7001B3644 /* Sources */,
+				811B4C9721F739F7001B3644 /* Frameworks */,
+				811B4C9821F739F7001B3644 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Parkovka;
+			productName = Parkovka;
+			productReference = 811B4C9A21F739F7001B3644 /* Parkovka.app */;
+			productType = "com.apple.product-type.application";
+		};
+		811B4CAD21F739F9001B3644 /* ParkovkaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 811B4CC521F739F9001B3644 /* Build configuration list for PBXNativeTarget "ParkovkaTests" */;
+			buildPhases = (
+				811B4CAA21F739F9001B3644 /* Sources */,
+				811B4CAB21F739F9001B3644 /* Frameworks */,
+				811B4CAC21F739F9001B3644 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				811B4CB021F739F9001B3644 /* PBXTargetDependency */,
+			);
+			name = ParkovkaTests;
+			productName = ParkovkaTests;
+			productReference = 811B4CAE21F739F9001B3644 /* ParkovkaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		811B4CB821F739F9001B3644 /* ParkovkaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 811B4CC821F739F9001B3644 /* Build configuration list for PBXNativeTarget "ParkovkaUITests" */;
+			buildPhases = (
+				811B4CB521F739F9001B3644 /* Sources */,
+				811B4CB621F739F9001B3644 /* Frameworks */,
+				811B4CB721F739F9001B3644 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				811B4CBB21F739F9001B3644 /* PBXTargetDependency */,
+			);
+			name = ParkovkaUITests;
+			productName = ParkovkaUITests;
+			productReference = 811B4CB921F739F9001B3644 /* ParkovkaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		811B4C9221F739F7001B3644 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Leon Vladimirov";
+				TargetAttributes = {
+					811B4C9921F739F7001B3644 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					811B4CAD21F739F9001B3644 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 811B4C9921F739F7001B3644;
+					};
+					811B4CB821F739F9001B3644 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 811B4C9921F739F7001B3644;
+					};
+				};
+			};
+			buildConfigurationList = 811B4C9521F739F7001B3644 /* Build configuration list for PBXProject "Parkovka" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 811B4C9121F739F7001B3644;
+			productRefGroup = 811B4C9B21F739F7001B3644 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				811B4C9921F739F7001B3644 /* Parkovka */,
+				811B4CAD21F739F9001B3644 /* ParkovkaTests */,
+				811B4CB821F739F9001B3644 /* ParkovkaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		811B4C9821F739F7001B3644 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				811B4CA821F739F9001B3644 /* LaunchScreen.storyboard in Resources */,
+				811B4CA521F739F9001B3644 /* Assets.xcassets in Resources */,
+				811B4CA321F739F7001B3644 /* Main.storyboard in Resources */,
+				8148C4742240124900333842 /* Slide.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		811B4CAC21F739F9001B3644 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		811B4CB721F739F9001B3644 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		811B4C9621F739F7001B3644 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				811B4CA021F739F7001B3644 /* CameraViewController.swift in Sources */,
+				811B4CD221F754F7001B3644 /* ViolationTypeViewController.swift in Sources */,
+				8163F8F1223EA10B003ED1CE /* TextFieldContainer.swift in Sources */,
+				811B4CD821F76F11001B3644 /* MyCustomCell.swift in Sources */,
+				81007DD421F821A000EE5A9E /* HelperMethods.swift in Sources */,
+				8112E3FA21F7ACA500EEC909 /* RegistrationViewController.swift in Sources */,
+				811B4C9E21F739F7001B3644 /* AppDelegate.swift in Sources */,
+				8106273F223894D00098BCED /* MenuViewController.swift in Sources */,
+				8101306C21FC839F000E254D /* MapViewController.swift in Sources */,
+				8148C47A2240143000333842 /* Slide.swift in Sources */,
+				811B4CD021F75436001B3644 /* FinalProtocolViewController.swift in Sources */,
+				8163F8EF223E86E5003ED1CE /* ReportClass.swift in Sources */,
+				811B4CDA21F773E3001B3644 /* InfoViewController.swift in Sources */,
+				8112E3F621F79E3E00EEC909 /* TextFieldClass.swift in Sources */,
+				811B4CCC21F73E64001B3644 /* LocationAndDate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		811B4CAA21F739F9001B3644 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				811B4CB321F739F9001B3644 /* ParkovkaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		811B4CB521F739F9001B3644 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				811B4CBE21F739F9001B3644 /* ParkovkaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		811B4CB021F739F9001B3644 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 811B4C9921F739F7001B3644 /* Parkovka */;
+			targetProxy = 811B4CAF21F739F9001B3644 /* PBXContainerItemProxy */;
+		};
+		811B4CBB21F739F9001B3644 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 811B4C9921F739F7001B3644 /* Parkovka */;
+			targetProxy = 811B4CBA21F739F9001B3644 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		811B4CA121F739F7001B3644 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				811B4CA221F739F7001B3644 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		811B4CA621F739F9001B3644 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				811B4CA721F739F9001B3644 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		811B4CC021F739F9001B3644 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		811B4CC121F739F9001B3644 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		811B4CC321F739F9001B3644 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EXMYY8J9M4;
+				INFOPLIST_FILE = Parkovka/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Hugaboom.Parkovka;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		811B4CC421F739F9001B3644 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EXMYY8J9M4;
+				INFOPLIST_FILE = Parkovka/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Hugaboom.Parkovka;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		811B4CC621F739F9001B3644 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EXMYY8J9M4;
+				INFOPLIST_FILE = ParkovkaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Hugaboom.ParkovkaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Parkovka.app/Parkovka";
+			};
+			name = Debug;
+		};
+		811B4CC721F739F9001B3644 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EXMYY8J9M4;
+				INFOPLIST_FILE = ParkovkaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Hugaboom.ParkovkaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Parkovka.app/Parkovka";
+			};
+			name = Release;
+		};
+		811B4CC921F739F9001B3644 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EXMYY8J9M4;
+				INFOPLIST_FILE = ParkovkaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Hugaboom.ParkovkaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Parkovka;
+			};
+			name = Debug;
+		};
+		811B4CCA21F739F9001B3644 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EXMYY8J9M4;
+				INFOPLIST_FILE = ParkovkaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Hugaboom.ParkovkaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Parkovka;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		811B4C9521F739F7001B3644 /* Build configuration list for PBXProject "Parkovka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				811B4CC021F739F9001B3644 /* Debug */,
+				811B4CC121F739F9001B3644 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		811B4CC221F739F9001B3644 /* Build configuration list for PBXNativeTarget "Parkovka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				811B4CC321F739F9001B3644 /* Debug */,
+				811B4CC421F739F9001B3644 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		811B4CC521F739F9001B3644 /* Build configuration list for PBXNativeTarget "ParkovkaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				811B4CC621F739F9001B3644 /* Debug */,
+				811B4CC721F739F9001B3644 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		811B4CC821F739F9001B3644 /* Build configuration list for PBXNativeTarget "ParkovkaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				811B4CC921F739F9001B3644 /* Debug */,
+				811B4CCA21F739F9001B3644 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 811B4C9221F739F7001B3644 /* Project object */;
+}
