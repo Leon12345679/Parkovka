@@ -27,9 +27,6 @@
                     <state key="normal" title="Настройки" backgroundImage="LongButton1x">
                         <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </state>
-                    <connections>
-                        <action selector="NextVC:" destination="ZoT-1D-3Oc" eventType="touchUpInside" id="SJf-9B-f3V"/>
-                    </connections>
                 </button>
                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bha-NJ-C0b" userLabel="Description">
                     <rect key="frame" x="37" y="404" width="300" height="145"/>
