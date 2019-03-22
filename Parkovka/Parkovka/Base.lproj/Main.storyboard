@@ -64,14 +64,15 @@
                                     <segue destination="HqW-Jt-5XV" kind="show" id="Cac-SS-lZM"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aau-VS-LQp">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aau-VS-LQp" customClass="NextButton" customModule="Parkovka" customModuleProvider="target">
                                 <rect key="frame" x="214" y="511" width="90" height="37"/>
+                                <color key="backgroundColor" red="0.045050136740000003" green="0.47707605359999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="37" id="2c8-F6-GbA"/>
                                     <constraint firstAttribute="width" constant="90" id="NAp-bO-7eB"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <state key="normal" title="Далее" backgroundImage="ButtonBack1x">
+                                <state key="normal" title="Далее">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
@@ -142,14 +143,15 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" autocorrectionType="no"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gN2-i9-bc9">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gN2-i9-bc9" customClass="NextButton" customModule="Parkovka" customModuleProvider="target">
                                 <rect key="frame" x="214" y="511" width="90" height="37"/>
+                                <color key="backgroundColor" red="0.045050136740000003" green="0.47707605359999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="90" id="lgb-Ls-97A"/>
                                     <constraint firstAttribute="height" constant="37" id="nNa-EM-1iV"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <state key="normal" title="Далее" backgroundImage="ButtonBack1x">
+                                <state key="normal" title="Далее">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
@@ -254,14 +256,15 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NhD-L2-jHH">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NhD-L2-jHH" customClass="NextButton" customModule="Parkovka" customModuleProvider="target">
                                 <rect key="frame" x="214" y="511" width="90" height="37"/>
+                                <color key="backgroundColor" red="0.045050136740000003" green="0.47707605359999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="37" id="Mmf-IA-chD"/>
                                     <constraint firstAttribute="width" constant="90" id="Xdl-aA-eN7"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <state key="normal" title="Далее" backgroundImage="ButtonBack1x">
+                                <state key="normal" title="Далее">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
@@ -389,13 +392,14 @@
                                 </constraints>
                                 <state key="normal" image="LocationIcon"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mnq-0Y-2bf">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mnq-0Y-2bf" customClass="NextButton" customModule="Parkovka" customModuleProvider="target">
                                 <rect key="frame" x="214" y="511" width="90" height="37"/>
+                                <color key="backgroundColor" red="0.045050136740000003" green="0.47707605359999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="37" id="gJU-RM-pQI"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <state key="normal" title="Далее" backgroundImage="ButtonBack1x">
+                                <state key="normal" title="Далее">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
@@ -512,14 +516,15 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5cf-2l-mVG">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5cf-2l-mVG" customClass="NextButton" customModule="Parkovka" customModuleProvider="target">
                                 <rect key="frame" x="214" y="511" width="90" height="37"/>
+                                <color key="backgroundColor" red="0.045050136740000003" green="0.47707605359999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="90" id="3Sm-mD-eUM"/>
                                     <constraint firstAttribute="height" constant="37" id="ppJ-HK-03X"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <state key="normal" title="Далее" backgroundImage="ButtonBack1x">
+                                <state key="normal" title="Далее">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
@@ -575,13 +580,14 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZwO-lJ-tsc">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZwO-lJ-tsc" customClass="NextButton" customModule="Parkovka" customModuleProvider="target">
                                 <rect key="frame" x="45" y="506" width="230" height="37"/>
+                                <color key="backgroundColor" red="0.045050136740000003" green="0.47707605359999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="37" id="XL1-I1-StF"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <state key="normal" title="Отправить" backgroundImage="LongButton1x">
+                                <state key="normal" title="Отправить">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
@@ -640,13 +646,14 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XkU-1i-c1W">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XkU-1i-c1W" customClass="NextButton" customModule="Parkovka" customModuleProvider="target">
                                 <rect key="frame" x="45" y="506" width="230" height="37"/>
+                                <color key="backgroundColor" red="0.045050136744976044" green="0.47707605361938477" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="37" id="zt5-2P-9hW"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <state key="normal" title="Новое Заявление" backgroundImage="LongButton1x">
+                                <state key="normal" title="Новое Заявление">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
@@ -674,15 +681,13 @@
         </scene>
     </scenes>
     <resources>
-        <image name="ButtonBack1x" width="180" height="74"/>
         <image name="LocationIcon" width="98" height="98"/>
-        <image name="LongButton1x" width="460" height="74"/>
         <image name="Menu" width="160" height="160"/>
         <image name="MyLocation1x" width="294" height="292"/>
         <image name="ShutterButtonIcon" width="366" height="366"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="trW-HC-RBG"/>
+        <segue reference="hvS-PS-Hov"/>
         <segue reference="nJc-xF-nns"/>
         <segue reference="Lu8-hF-Mww"/>
     </inferredMetricsTieBreakers>

@@ -28,6 +28,7 @@
 		8148C47A2240143000333842 /* Slide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8148C4792240143000333842 /* Slide.swift */; };
 		8163F8EF223E86E5003ED1CE /* ReportClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8163F8EE223E86E5003ED1CE /* ReportClass.swift */; };
 		8163F8F1223EA10B003ED1CE /* TextFieldContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8163F8F0223EA10B003ED1CE /* TextFieldContainer.swift */; };
+		8197C06222450CB8003EAB4B /* NextButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8197C06122450CB8003EAB4B /* NextButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +76,7 @@
 		8148C4792240143000333842 /* Slide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slide.swift; sourceTree = "<group>"; };
 		8163F8EE223E86E5003ED1CE /* ReportClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportClass.swift; sourceTree = "<group>"; };
 		8163F8F0223EA10B003ED1CE /* TextFieldContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldContainer.swift; sourceTree = "<group>"; };
+		8197C06122450CB8003EAB4B /* NextButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +132,7 @@
 				811B4C9F21F739F7001B3644 /* CameraViewController.swift */,
 				811B4CD921F773E3001B3644 /* InfoViewController.swift */,
 				811B4CD121F754F7001B3644 /* ViolationTypeViewController.swift */,
+				8197C06122450CB8003EAB4B /* NextButton.swift */,
 				8101306B21FC839F000E254D /* MapViewController.swift */,
 				8148C4792240143000333842 /* Slide.swift */,
 				8163F8EE223E86E5003ED1CE /* ReportClass.swift */,
@@ -305,6 +308,7 @@
 				811B4CD821F76F11001B3644 /* MyCustomCell.swift in Sources */,
 				81007DD421F821A000EE5A9E /* HelperMethods.swift in Sources */,
 				8112E3FA21F7ACA500EEC909 /* RegistrationViewController.swift in Sources */,
+				8197C06222450CB8003EAB4B /* NextButton.swift in Sources */,
 				811B4C9E21F739F7001B3644 /* AppDelegate.swift in Sources */,
 				8106273F223894D00098BCED /* MenuViewController.swift in Sources */,
 				8101306C21FC839F000E254D /* MapViewController.swift in Sources */,

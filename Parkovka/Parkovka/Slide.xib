@@ -22,14 +22,15 @@
                         <constraint firstAttribute="width" secondItem="QmR-Oe-RtL" secondAttribute="height" multiplier="207:130" id="of4-56-qkd"/>
                     </constraints>
                 </imageView>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bVi-SW-4m1">
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bVi-SW-4m1" customClass="NextButton" customModule="Parkovka" customModuleProvider="target">
                     <rect key="frame" x="72" y="43" width="230" height="37"/>
-                    <state key="normal" title="Настройки" backgroundImage="LongButton1x">
+                    <color key="backgroundColor" red="0.045050136740000003" green="0.47707605359999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <state key="normal" title="Настройки">
                         <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </state>
                 </button>
                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bha-NJ-C0b" userLabel="Description">
-                    <rect key="frame" x="37" y="404" width="300" height="145"/>
+                    <rect key="frame" x="37.5" y="404" width="300" height="145"/>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <attributedString key="attributedText">
                         <fragment content="Use this technique to make your slides, create your app, in a simple and effective way ">
@@ -73,7 +74,6 @@
         </button>
     </objects>
     <resources>
-        <image name="LongButton1x" width="460" height="74"/>
         <image name="ic_onboarding_1" width="194.5" height="170"/>
     </resources>
 </document>
