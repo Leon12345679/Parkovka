@@ -59,7 +59,7 @@ class MenuViewController: UIViewController, UIScrollViewDelegate {
         let slide4:Slide = Bundle.main.loadNibNamed("Slide", owner: self, options: nil)?.first as! Slide
         slide4.imageView.image = UIImage(named: "plate")
         slide4.Settings.isHidden = true
-        slide4.labelDesc.text = "далее введите номер, код регона и марку машины и выберете тип нарушения."
+        slide4.labelDesc.text = "далее введите номер, код регона, марку машины и выберете тип нарушения."
         
         
         let slide5:Slide = Bundle.main.loadNibNamed("Slide", owner: self, options: nil)?.first as! Slide
