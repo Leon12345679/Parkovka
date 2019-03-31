@@ -104,7 +104,7 @@ class FinalProtocolViewController: UIViewController, MFMailComposeViewController
         let mailComposerVC = MFMailComposeViewController()
         mailComposerVC.mailComposeDelegate = self
         
-        mailComposerVC.setToRecipients([UserDefaults.standard.string(forKey: "Email")!, "guvd.p38@mvd.ru"])
+        mailComposerVC.setToRecipients([UserDefaults.standard.string(forKey: "Email")!, "moderation.parkovka@gmail.com"])
         mailComposerVC.setSubject("Заявление об административном правонарушении")
         mailComposerVC.setMessageBody("\(ProtocolText.text!)", isHTML: false)
         
